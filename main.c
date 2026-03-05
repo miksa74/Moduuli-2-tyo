@@ -44,7 +44,7 @@ int main() {
         printf("IMU initializing is good\n");
         ICM42670_start_with_default_values();
     } else {
-        printf(IMU initializing failed!\n");
+        printf("IMU initializing failed!\n");
     }
 
     // Creating queue
